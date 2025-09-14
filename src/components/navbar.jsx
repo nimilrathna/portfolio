@@ -5,15 +5,7 @@ function Navbar() {
   return (
     <nav className="bg-transparent">
       <div className="flex items-center justify-between py-5">
-        <div className="flex flex-shrink-0 items-center">
-          <a
-            href="/"
-            className=" text-[#16f2b3] text-3xl font-bold">
-            NIMIL RATHNA R
-          </a>
-        </div>
-
-        <ul className="mt-4 flex h-screen max-h-0 w-full flex-col items-start text-sm opacity-0 md:mt-0 md:h-auto md:max-h-screen md:w-auto md:flex-row md:space-x-1 md:border-0 md:opacity-100" id="navbar-default">
+        <ul className="flex flex-row items-center justify-center gap-10 text-lg w-full" id="navbar-default">
           <li>
             <a className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#about">
               <div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">ABOUT</div>
@@ -35,6 +27,8 @@ function Navbar() {
             <a className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#projects"><div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">PROJECTS</div></a>
           </li>
         </ul>
+        <div className="order-1 lg:order-2 from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37]">   
+        </div>
       </div>
     </nav>
   );

@@ -7,6 +7,8 @@ import Footer from "./components/footer";
 import Skills from "./components/skills/skills";
 import Introduction from './components/introduction';
 import Career from './components/career/career';
+import TorchEffect from "./components/touch-effect";
+import Projects from './components/Project/project';
 function App() {
   const [count, setCount] = useState(0)
 
@@ -14,9 +16,9 @@ function App() {
    <div className="app-container inter-font">
     <Navbar />
       <main className="min-h-screen relative mx-auto px-6 sm:px-12 lg:max-w-[70rem] xl:max-w-[76rem] 2xl:max-w-[92rem] text-white">
-        <Introduction />
+        <Introduction />   
         <Career />
-        <Skills />
+        <Projects />
       </main>
       <Footer />
     </div>

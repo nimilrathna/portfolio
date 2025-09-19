@@ -9,10 +9,10 @@ function CareerCard({ career }) {
       
       <div className="px-4 lg:px-8 py-3 lg:py-5 relative">
         <div className="flex flex-row space-x-1 lg:space-x-2 absolute top-1/2 -translate-y-1/2">
-        <p className="text-center ml-3 text-[#16f2b3] text-base lg:text-xl">
+        <p className="text-left ml-3 text-[#16f2b3] text-base lg:text-xl">
           {career.time}
         </p>
-          <p className="text-center ml-3 text-[#16f2b3] text-base lg:text-xl">
+          <p className="text-left ml-3 text-[#16f2b3] text-base lg:text-xl">
           {career.role} @ {career.company}
         </p>
         </div>
